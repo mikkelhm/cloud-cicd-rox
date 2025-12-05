@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "let me see som more debugging please",
+      "Alias": "let-me-see-som-more-debugging-please",
+      "Id": "d42f3a0b-9681-4012-b5e3-0f4a1c74ab3f",
+      "Workspaces": [
+        {
+          "Id": "17e08826-b6e6-49fc-9bd9-f86e95145aaf",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://let-me-see-som-more-debugging-please.euwest01.rainbowsrock.net"
+        }
+      ]
     },
     "Settings": {}
   },
