@@ -1,10 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "let me see som more debugging please",
+      "Name": "Let me see som more debugging please",
       "Alias": "let-me-see-som-more-debugging-please",
       "Id": "d42f3a0b-9681-4012-b5e3-0f4a1c74ab3f",
+      "Url": "https://www.s1.umbraco.io/project/let-me-see-som-more-debugging-please",
       "Workspaces": [
+        {
+          "Id": "cf0402c3-b3ff-465e-bcb0-e590b7232324",
+          "Name": "Pepsi",
+          "Type": "pepsi",
+          "Url": "https://pepsi-let-me-see-som-more-debugging-please.euwest01.rainbowsrock.net"
+        },
         {
           "Id": "17e08826-b6e6-49fc-9bd9-f86e95145aaf",
           "Name": "Live",
