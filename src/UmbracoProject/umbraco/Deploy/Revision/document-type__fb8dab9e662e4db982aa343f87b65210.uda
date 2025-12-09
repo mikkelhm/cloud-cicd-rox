@@ -24,6 +24,13 @@
           "Alias": "body",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
           "Name": "Body"
+        },
+        {
+          "Key": "d2c58757-6b0c-45e2-8d99-f4461731bc9b",
+          "Alias": "subline",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Subline",
+          "SortOrder": 1
         }
       ]
     }
@@ -31,6 +38,10 @@
   "PropertyTypes": [],
   "Udi": "umb://document-type/fb8dab9e662e4db982aa343f87b65210",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
       "Ordering": true
