@@ -44,7 +44,7 @@ jobs:
       noBuildAndRestore: 0
       skipVersionCheck: 0
       skipPreserveUmbracoCloudJson: 0
-      allowAnyTarget: 0
+      allowAnyTarget: 1
       runSchemaExtraction: 1
     secrets:
       projectId: ${{ secrets.PROJECT_ID }}
