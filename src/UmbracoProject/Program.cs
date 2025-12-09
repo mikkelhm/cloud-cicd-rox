@@ -26,4 +26,7 @@ app.UseUmbraco()
         u.UseWebsiteEndpoints();
     });
 
+// Comments here
 await app.RunAsync();
+
+System.Diagnostics.Debug.WriteLine("This is a test log message.");

@@ -20,6 +20,13 @@
       "Alias": "content",
       "PropertyTypes": [
         {
+          "Key": "46615a2f-2516-4d43-a843-eb0f21820c4c",
+          "Alias": "photo",
+          "DataType": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
+          "Name": "Photo",
+          "SortOrder": 2
+        },
+        {
           "Key": "7f30c8cf-d6bb-4a6f-bd12-444b8469391a",
           "Alias": "body",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
@@ -40,6 +47,10 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
       "Ordering": true
     },
     {
