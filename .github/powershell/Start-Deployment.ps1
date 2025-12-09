@@ -67,6 +67,7 @@ $requestBody = @{
     'skipPreserveUmbracoCloudJson' = $SkipPreserveUmbracoCloudJson
     'allowAnyTarget' = $AllowAnyTarget
     'runSchemaExtraction' = $RunSchemaExtraction
+    'dockerImageTag' = "0.3.80-beta"
 } | ConvertTo-Json
 
 try {
